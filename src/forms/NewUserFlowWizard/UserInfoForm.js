@@ -59,6 +59,7 @@ export function UserInfoForm({ data, onSubmit }) {
           display: "flex",
           gap: "1rem",
         }}
+        data-testid="name-input"
       >
         <Controller
           name="name"
@@ -122,6 +123,7 @@ export function UserInfoForm({ data, onSubmit }) {
           color: "white",
         }}
         type="submit"
+        data-testid="continue-button"
       >
         Continue
       </Button>
